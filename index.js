@@ -1,6 +1,6 @@
 const app = "I don't do much."
 
 function destructivelyAppendKitten(name) {
-  kittens.shift(name)
+  kittens.splice(-1, 0, name)
   return kittens
 }
